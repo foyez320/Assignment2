@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    background-image: -webkit-image-set();
+}
+
+
+header {
+    background-color: #424141;
+    color: #6b6969;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: yellowgreen; /* Change the color on hover */
+}
+
+.container {
+    max-width: 2500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.content img {
+    width: 1300px;
+    height: 400px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.content p {
+    margin: 20px 0;
+}
